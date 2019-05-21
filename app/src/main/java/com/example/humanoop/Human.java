@@ -45,23 +45,24 @@ public class Human {
         Log.d("Human","Iam eating food");
     }
     public void spleep(){
-        Log.d("Human","zzzzzzzzzz")
+        Log.d("Human","zzzzzzzzzz");
     }
     public int sleep(int hours){
-        Log.d("Human","I am sleeping for x hours");
-        return hours;
+        Log.d("Human","I am sleeping for  hours"+ hours+"hours");
     }
-    public void speak (string speak){
-        Log.d("Human","Today is sunday");
+    public <string> void speak (string speech){
+        Log.d("Human",speech);
     }
-    public int bithday (int increment){
-        age = age+increment;
-        return age;
-    }
-    public int addweight (int increment){
-        weight = weight +
-                increment;
-        return weight''
+    public void bithday (){
+        int age + getAge();
+        age = age+ 1;
+        setAge(age);
+
+//    }
+//    public int addweight (int increment){
+//        weight = weight +
+//                increment;
+//        return weight''
     }
 
 }
